@@ -1,2 +1,2 @@
 ## Emoji
-#### An emoji app written in NativeScript & Angular.
+#### An emoji app written in NativeScript & Angular.# emoji
