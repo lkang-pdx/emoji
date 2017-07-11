@@ -1,7 +1,11 @@
 <ActionBar title="Details" class="action-bar"></ActionBar>
-<FlexboxLayout flexDirection="column" class="page">
-    <FlexboxLayout class="m-15">
-        <Label class="h1" [text]="item.name"></Label>
-    </FlexboxLayout>
-    <Label class="h2 text-center" [text]="item.role"></Label>
-</FlexboxLayout>
+
+<GridLayout rows="*" columns="*,*" width="200" height="150" class="page">
+    <StackLayout row="0" col="0" colSpan="2" class="tile">
+        <StackLayout class="tile-title">
+            <Label class="h2 text-center" textWrap="true" [text]="item.name"></Label>
+        </StackLayout>
+        <Label class="h1 text-center" textWrap="true" [text]="item.role"></Label>
+        <Label class="h2 text-center" textWrap="true" [text]="item.summary"></Label>
+    </StackLayout>        
+</GridLayout>

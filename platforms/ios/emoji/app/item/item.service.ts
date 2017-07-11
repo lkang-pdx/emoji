@@ -5,16 +5,13 @@ import { Item } from "./item";
 @Injectable()
 export class ItemService {
     private items = new Array<Item>(
-        { id: 1, name: "🤷", role: "Person Shrugging" },
-        { id: 2, name: "🤔", role: "Thinking Face" },
-        { id: 3, name: "🤦", role: "Person Facepalming" },
-        { id: 4, name: "😂", role: "Face With Tears of Joy" },
-        { id: 5, name: "🎉", role: "Celebration" },
-        { id: 6, name: "😍", role: "Smiling Face With Heart-Eyes" },
-        { id: 7, name: "🔥", role: "Fire" },
-        { id: 8, name: "💪", role: "Flexed Biceps" },
-        { id: 9, name: "💯", role: "Hundred Points" },
-        { id: 10, name: "👊", role: "Fist Bump" },
+        { id: 1, name: "shrug()", role: "🤷", summary: "U+1F937" },
+        { id: 2, name: "think()", role: "🤔", summary: "U+1F914"  },
+        { id: 3, name: "facepalm()", role: "🤦" , summary: "U+1F926" },
+        { id: 4, name: "lit()", role: "🔥" , summary: "U+1F525" },
+        { id: 5, name: "party()", role: "🎉", summary: "U+1F389"  },
+        { id: 6, name: "flex()", role: "💪", summary: "U+1F4AA"  },
+        { id: 7, name: "fistbump()", role: "👊" , summary: "U+1F44A" },
     );
 
     getItems(): Item[] {

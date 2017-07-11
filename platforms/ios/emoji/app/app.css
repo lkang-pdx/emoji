@@ -10,3 +10,15 @@ of writing your own CSS rules. For a full list of class names in the theme
 refer to http://docs.nativescript.org/ui/theme.
 */
 @import 'nativescript-theme-core/css/ruby.css';
+
+Page {
+    background-color: #7CD8D5;
+}
+
+.list-group {
+    background-color: #7CD8D5;
+}
+
+.tile {
+    background-color: #7CD8D5;
+}
